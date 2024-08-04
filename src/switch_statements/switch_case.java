@@ -1,10 +1,12 @@
+package switch_statements;
+
 import java.util.Scanner;
 
 public class switch_case {
     public static void main(String[] args) {
          Scanner sc  = new Scanner(System.in);
          int n = sc.nextInt();
-        System.out.println("Print the day you require");
+        System.out.println("Enter a valid number");
         switch (n){
             case 1:
                 System.out.println("Sunday");
@@ -23,6 +25,9 @@ public class switch_case {
                 break;
             case 6:
                 System.out.println("Friday");
+                break;
+            case 7:
+                System.out.println("Saturday");
                 break;
         }
     }
